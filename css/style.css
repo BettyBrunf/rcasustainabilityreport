@@ -1,0 +1,187 @@
+/*Aktiv Grotesk Regular
+font-family: aktiv-grotesk, sans-serif;
+font-weight: 400;
+font-style: normal;
+
+Aktiv Grotesk Italic
+font-family: aktiv-grotesk, sans-serif;
+font-weight: 400;
+font-style: italic;
+
+Aktiv Grotesk Bold
+font-family: aktiv-grotesk, sans-serif;
+font-weight: 700;
+font-style: normal;
+
+Aktiv Grotesk Bold Italic
+font-family: aktiv-grotesk, sans-serif;
+font-weight: 700;
+font-style: italic;
+
+Aktiv Grotesk Light
+font-family: aktiv-grotesk, sans-serif;
+font-weight: 300;
+font-style: normal;
+
+Aktiv Grotesk Light Italic
+font-family: aktiv-grotesk, sans-serif;
+font-weight: 300;
+font-style: italic;
+
+Aktiv Grotesk Medium
+font-family: aktiv-grotesk, sans-serif;
+font-weight: 500;
+font-style: normal;
+
+Aktiv Grotesk Medium Italic
+font-family: aktiv-grotesk, sans-serif;
+font-weight: 500;
+font-style: italic;
+
+Aktiv Grotesk XBold
+font-family: aktiv-grotesk, sans-serif;
+font-weight: 800;
+font-style: normal;
+
+Aktiv Grotesk XBold Italic
+font-family: aktiv-grotesk, sans-serif;
+font-weight: 800;
+font-style: italic;
+
+Aktiv Grotesk Hair
+font-family: aktiv-grotesk, sans-serif;
+font-weight: 200;
+font-style: normal;
+
+Aktiv Grotesk Hair Italic
+font-family: aktiv-grotesk, sans-serif;
+font-weight: 200;
+font-style: italic;
+
+Aktiv Grotesk Black
+font-family: aktiv-grotesk, sans-serif;
+font-weight: 900;
+font-style: normal;
+
+Aktiv Grotesk Black Italic
+font-family: aktiv-grotesk, sans-serif;
+font-weight: 900;
+font-style: italic;
+
+Aktiv Grotesk Thin
+font-family: aktiv-grotesk-thin, sans-serif;
+font-weight: 200;
+font-style: normal;
+
+Aktiv Grotesk Thin Italic
+font-family: aktiv-grotesk-thin, sans-serif;
+font-weight: 200;
+font-style: italic;
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+ }
+
+ body {
+ 	margin: 0;
+ 	padding: 0; 
+ 	margin-left: 0.5em;
+ 	margin-top: 0.5em;
+	margin-bottom: 0.1em;
+ }
+
+ h1 {
+ 	position: fixed; 
+ 	bottom: 0;
+ 	font-family: aktiv-grotesk, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 4vw;
+ }
+
+ p {
+ 	font-family: aktiv-grotesk, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1.5em;
+	padding-right: 0.5em;
+ }
+
+ .container {
+ 	display: flex;
+ 	flex-direction: row;
+ 	flex-wrap: nowrap;
+ 	height: 85vh;
+ }
+
+.item {
+	width: 49vw;
+}
+
+.b {
+	align-self: flex-end;
+}
+
+.center {
+	border: solid 1px DarkSeaGreen;
+	border-radius: 500px;
+	background-color: DarkSeaGreen;
+	height: 70vh;
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	font-family: aktiv-grotesk, sans-serif;
+	font-weight: 900;
+	font-style: italic;
+	font-size: 2em;
+	color: DarkSeaGreen;
+	-webkit-text-stroke: 1px White;
+}
+
+a {
+	text-decoration: none;
+	color: DarkSeaGreen;
+}
+
+@media screen and (max-width: 1200px) {
+	body {
+	 	margin-left: 2em;
+	 	margin-top: 2em;
+	 }
+
+	h1 {
+		font-size: 7vw;
+		color: White;
+		-webkit-text-stroke: 1px DarkSeaGreen;
+		margin-bottom: 0.2em;
+	}
+
+	p {
+		font-size: 4vw;
+	}
+
+	.container {
+ 		flex-wrap: wrap;
+ 	}
+
+ 	.item {
+		width: 80vw;
+	}
+
+ 	.b {
+ 		margin-top: 2em;
+ 		margin-bottom: 15em;
+		align-self: flex-start;
+	}
+
+	.center {
+		height: 30vh;
+		font-size: 5vw;
+		text-align: center;
+	}
+
+}
+
+
