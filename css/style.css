@@ -2,77 +2,62 @@
 font-family: aktiv-grotesk, sans-serif;
 font-weight: 400;
 font-style: normal;
-
 Aktiv Grotesk Italic
 font-family: aktiv-grotesk, sans-serif;
 font-weight: 400;
 font-style: italic;
-
 Aktiv Grotesk Bold
 font-family: aktiv-grotesk, sans-serif;
 font-weight: 700;
 font-style: normal;
-
 Aktiv Grotesk Bold Italic
 font-family: aktiv-grotesk, sans-serif;
 font-weight: 700;
 font-style: italic;
-
 Aktiv Grotesk Light
 font-family: aktiv-grotesk, sans-serif;
 font-weight: 300;
 font-style: normal;
-
 Aktiv Grotesk Light Italic
 font-family: aktiv-grotesk, sans-serif;
 font-weight: 300;
 font-style: italic;
-
 Aktiv Grotesk Medium
 font-family: aktiv-grotesk, sans-serif;
 font-weight: 500;
 font-style: normal;
-
 Aktiv Grotesk Medium Italic
 font-family: aktiv-grotesk, sans-serif;
 font-weight: 500;
 font-style: italic;
-
 Aktiv Grotesk XBold
 font-family: aktiv-grotesk, sans-serif;
 font-weight: 800;
 font-style: normal;
-
 Aktiv Grotesk XBold Italic
 font-family: aktiv-grotesk, sans-serif;
 font-weight: 800;
 font-style: italic;
-
 Aktiv Grotesk Hair
 font-family: aktiv-grotesk, sans-serif;
 font-weight: 200;
 font-style: normal;
-
 Aktiv Grotesk Hair Italic
 font-family: aktiv-grotesk, sans-serif;
 font-weight: 200;
 font-style: italic;
-
 Aktiv Grotesk Black
 font-family: aktiv-grotesk, sans-serif;
 font-weight: 900;
 font-style: normal;
-
 Aktiv Grotesk Black Italic
 font-family: aktiv-grotesk, sans-serif;
 font-weight: 900;
 font-style: italic;
-
 Aktiv Grotesk Thin
 font-family: aktiv-grotesk-thin, sans-serif;
 font-weight: 200;
 font-style: normal;
-
 Aktiv Grotesk Thin Italic
 font-family: aktiv-grotesk-thin, sans-serif;
 font-weight: 200;
@@ -99,6 +84,8 @@ font-style: italic;
 	font-weight: 700;
 	font-style: normal;
 	font-size: 4vw;
+	color: transparent;
+	-webkit-text-stroke: 1px #408f49;
  }
 
  p {
@@ -128,21 +115,16 @@ font-style: italic;
 	position: relative;
  	text-align: center;
  	color: transparent;
- 	font-weight: 900;
 }
 
 .pic:hover {
-	color: #408f49;
+	color: white;
+	filter: hue-rotate(90deg);
 }
 
 
 img {
 	width: 49vw;
-}
-
-img:hover {
-	filter: grayscale(100%);
-	opacity: 50%;
 }
 
 
@@ -152,8 +134,9 @@ img:hover {
  	left: 50%;
  	transform: translate(-50%, -50%);
  	font-family: aktiv-grotesk, sans-serif;
- 	font-size: 2em;
+ 	font-size: 1em;
  	text-decoration: underline;
+ 	font-weight: 1000;
 }
 
 a {
@@ -174,7 +157,7 @@ a:hover {
 
 	h1 {
 		font-size: 7vw;
-		color: White;
+		color: transparent;
 		-webkit-text-stroke: 1px #408f49;
 		margin-bottom: 0.2em;
 	}
@@ -193,40 +176,30 @@ a:hover {
 
  	.b {
  		margin-top: 2em;
- 		margin-bottom: 15em;
+ 		margin-bottom: 10em;
 		align-self: flex-start;
 	}
 
 	.center {
-		height: 30vh;
-		font-size: 5vw;
-		text-align: center;
+		height: 2em;
 	}
-	
 	
 
 	.pic {
-		position: relative;
-		text-align: center;
-		color: #408f49;
-		font-weight: 900;
+		color: white;
+		filter: hue-rotate(90deg);
 	}
-
 
 
 	img {
 		width: 80vw;
-		filter: grayscale(100%);
-		opacity: 50%;
 	}
 
 
 	a {
-		text-decoration: underline;
+		text-decoration: underline;;
 	}
 
 
 
 }
-
-
